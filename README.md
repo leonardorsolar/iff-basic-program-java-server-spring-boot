@@ -116,6 +116,11 @@ public class HelloController {
 
 ```
 
+A classe é sinalizada como @RestController, o que significa que está pronta para ser usada pelo Spring MVC para lidar com solicitações web. @GetMappingmapeia /para o index()método. Quando invocado em um navegador ou usando curl na linha de comando, o método retorna texto puro. Isso ocorre porque @RestControllercombina @Controllere @ResponseBody, duas anotações que resultam em solicitações web retornando dados em vez de uma visualização.
+
+Construindo uma aplicação com Spring Boot:
+https://spring.io/guides/gs/spring-boot
+
 ---
 
 ### 2. Rode novamente a aplicação
